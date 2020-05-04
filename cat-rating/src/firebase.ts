@@ -1,6 +1,7 @@
+import Config from '../Config.json';
 import firebase from 'firebase';
 const config = {
-  apiKey: "AIzaSyBeobdOJ-PFkIlswatl67ZRUatd4wSO5G8",
+  apiKey: Config.firebase.apiKey,
   authDomain: "cat-rating.firebaseapp.com",
   databaseURL: "https://cat-rating.firebaseio.com",
   projectId: "cat-rating",
